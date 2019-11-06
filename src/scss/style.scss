@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Hind";
+  src: url('../font/Hind-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../font/Montserrat-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../font/Montserrat-500.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../font/Montserrat-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url('../font/Muli-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url('../font/Muli-600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work sans";
+  src: url('../font/WorkSans-700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  padding: 0;
+  margin: 0; 
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.top> {
+  div {
+    display: flex;
+  }
+}
+
+.center {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 41px;
+  .opt{
+    padding: 0 16px;
+  }
+}
+
+.right {
+  .icon-opt {
+    padding-left: 15px;
+    line-height: 41px;
+    img {
+      width: 25px;
+    }
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(239,244,255);
+  background: linear-gradient(0deg, rgba(239,244,255,1) 0%, rgba(255,255,255,1) 100%);
+  .banner-left {
+    width: 550px;
+    padding-top: 200px;
+    .banner-left_top {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 11.5vw;
+    }
+    .banner-left_bottom {
+      font-family: "Hind";
+      font-weight: 700;
+      font-size: 2.5vw;
+      line-height: 40px;
+    }
+  }
+}
+
+.next-top {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  .next-top-left {
+    font-family: "Montserrat";
+    font-weight: 700;
+    .next-top-top {
+      font-size: 80px;
+    }
+    .next-top-bottom {
+      font-size: 58px;
+    }
+  }
+}
