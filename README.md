@@ -1,0 +1,1 @@
+# Koral - Modern Multi Concept WordPress Theme 
